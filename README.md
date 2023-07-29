@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/aggregateknowledge/postgresql-hll.svg?branch=master)](https://travis-ci.org/aggregateknowledge/postgresql-hll)
+# Compiled version for Ubuntu
+
+This is an already compiled verions that can be installed inside a container via `./install.sh`.
 
 Overview
 ========
