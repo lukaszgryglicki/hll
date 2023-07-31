@@ -1,7 +1,6 @@
 #!/bin/bash
 /bin/mkdir -p '/usr/lib/postgresql/13/lib'
 /bin/mkdir -p '/usr/share/postgresql/13/extension'
-/bin/mkdir -p '/usr/share/postgresql/13/extension'
 /usr/bin/install -c -m 755  hll.so '/usr/lib/postgresql/13/lib/hll.so'
 /usr/bin/install -c -m 644 ./hll.control '/usr/share/postgresql/13/extension/'
 /usr/bin/install -c -m 644  hll--2.13--2.14.sql hll--2.10--2.11.sql hll--2.12--2.13.sql hll--2.15--2.16.sql hll--2.16--2.17.sql hll--2.14--2.15.sql hll--2.11--2.12.sql hll--2.10.sql '/usr/share/postgresql/13/extension/'
